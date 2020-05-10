@@ -132,6 +132,7 @@
             this.textBox4.Size = new System.Drawing.Size(19, 22);
             this.textBox4.TabIndex = 4;
             this.textBox4.Text = "1";
+            this.textBox4.TextChanged += new System.EventHandler(this.textBox4_TextChanged);
             this.textBox4.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.textBox4_KeyPress);
             // 
             // checkBox1
