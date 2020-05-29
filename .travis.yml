@@ -1,8 +1,8 @@
 language: csharp
-solution: Erlael.sln
+solution: Enigma.sln
 mono:
   - latest
 before_install:
   - sudo apt-get install nunit-console
 before_script:
-  - nuget restore Erlael.sln
+  - nuget restore Enigma.sln
