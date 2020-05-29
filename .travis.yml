@@ -1,10 +1,8 @@
 language: csharp
-solution: QuizRunner.sln
+solution: Erlael.sln
 mono:
   - latest
 before_install:
   - sudo apt-get install nunit-console
 before_script:
-  - nuget restore QuizRunner.sln
-after_script:
-  - nunit-console TestEditor/bin/Release/netcoreapp3.0/TestEditor.dll
+  - nuget restore Erlael.sln
