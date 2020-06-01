@@ -409,7 +409,7 @@ namespace Enigma
 
         private void button34_Click(object sender, EventArgs e)
         {
-
+            textBox4.Clear();
         }
 
         private void textBox1_KeyPress(object sender, KeyPressEventArgs e)
