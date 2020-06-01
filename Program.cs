@@ -99,6 +99,16 @@ namespace Enigma
           
             return alphabet[a];
         }
+        public static string Decoding(int a, int shift, int r1, int r2, int r3)
+        {
+            a -= shift;
+            while (a < 0)
+            {
+                a += 33;
+            }
+
+            return alphabet[a];
+        }
 
 
     }
