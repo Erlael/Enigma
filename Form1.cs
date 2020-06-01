@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace Enigma
 {
-    public partial class Form1 : Form
+    public partial class Enigma : Form
     {
-        public Form1()
+        public Enigma()
         {
             InitializeComponent();
         }
@@ -29,11 +29,11 @@ namespace Enigma
             string Al;
             if (b == 0)
             {
-                Al = Program.Coding(Array.IndexOf(alphabet, btnText), shift, r1, r2, r3);
+                Al = Program.Coding(Array.IndexOf(Program.alphabet, btnText), shift, r1, r2, r3);
             }
             else
             {
-                Al = Program.Decoding(Array.IndexOf(alphabet, btnText), shift, r1, r2, r3);
+                Al = Program.Decoding(Array.IndexOf(Program.alphabet, btnText), shift, r1, r2, r3);
             }
             textBox4.Text += Al + " ";
             r3 = Program.Roters3(r3);
@@ -444,6 +444,8 @@ namespace Enigma
             }
 
         }
+
+       
     }
 
     

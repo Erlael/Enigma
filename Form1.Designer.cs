@@ -1,6 +1,6 @@
 ﻿namespace Enigma
 {
-    partial class Form1
+    partial class Enigma
     {
         /// <summary>
         /// Обязательная переменная конструктора.
@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Enigma));
             this.textBox1 = new System.Windows.Forms.TextBox();
             this.textBox2 = new System.Windows.Forms.TextBox();
             this.textBox3 = new System.Windows.Forms.TextBox();
@@ -71,33 +72,48 @@
             // 
             // textBox1
             // 
-            this.textBox1.Location = new System.Drawing.Point(49, 54);
+            this.textBox1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(223)))), ((int)(((byte)(217)))), ((int)(((byte)(219)))));
+            this.textBox1.Font = new System.Drawing.Font("Kristen ITC", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.textBox1.Location = new System.Drawing.Point(243, 107);
+            this.textBox1.MaxLength = 1;
             this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(100, 22);
+            this.textBox1.ShortcutsEnabled = false;
+            this.textBox1.Size = new System.Drawing.Size(21, 25);
             this.textBox1.TabIndex = 0;
+            this.textBox1.Text = "0";
             this.textBox1.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.textBox1_KeyPress);
             // 
             // textBox2
             // 
-            this.textBox2.Location = new System.Drawing.Point(177, 54);
+            this.textBox2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(223)))), ((int)(((byte)(217)))), ((int)(((byte)(219)))));
+            this.textBox2.Font = new System.Drawing.Font("Kristen ITC", 9.75F);
+            this.textBox2.Location = new System.Drawing.Point(330, 107);
+            this.textBox2.MaxLength = 1;
             this.textBox2.Name = "textBox2";
-            this.textBox2.Size = new System.Drawing.Size(100, 22);
+            this.textBox2.ShortcutsEnabled = false;
+            this.textBox2.Size = new System.Drawing.Size(21, 25);
             this.textBox2.TabIndex = 1;
+            this.textBox2.Text = "0";
             this.textBox2.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.textBox2_KeyPress);
             // 
             // textBox3
             // 
-            this.textBox3.Location = new System.Drawing.Point(297, 54);
+            this.textBox3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(223)))), ((int)(((byte)(217)))), ((int)(((byte)(219)))));
+            this.textBox3.Font = new System.Drawing.Font("Kristen ITC", 9.75F);
+            this.textBox3.Location = new System.Drawing.Point(406, 107);
+            this.textBox3.MaxLength = 1;
             this.textBox3.Name = "textBox3";
-            this.textBox3.Size = new System.Drawing.Size(100, 22);
+            this.textBox3.ShortcutsEnabled = false;
+            this.textBox3.Size = new System.Drawing.Size(21, 25);
             this.textBox3.TabIndex = 2;
+            this.textBox3.Text = "0";
             this.textBox3.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.textBox3_KeyPress);
             // 
             // textBox4
             // 
-            this.textBox4.Location = new System.Drawing.Point(418, 54);
+            this.textBox4.Location = new System.Drawing.Point(811, 169);
             this.textBox4.Name = "textBox4";
-            this.textBox4.Size = new System.Drawing.Size(100, 22);
+            this.textBox4.Size = new System.Drawing.Size(100, 23);
             this.textBox4.TabIndex = 3;
             // 
             // button1
@@ -445,17 +461,19 @@
             this.checkBox1.AutoSize = true;
             this.checkBox1.Location = new System.Drawing.Point(226, 503);
             this.checkBox1.Name = "checkBox1";
-            this.checkBox1.Size = new System.Drawing.Size(98, 21);
+            this.checkBox1.Size = new System.Drawing.Size(80, 18);
             this.checkBox1.TabIndex = 38;
             this.checkBox1.Text = "checkBox1";
             this.checkBox1.UseVisualStyleBackColor = true;
             // 
-            // Form1
+            // Enigma
             // 
+            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.None;
             this.AutoSize = true;
-            this.BackColor = System.Drawing.Color.Silver;
+            this.BackColor = System.Drawing.Color.Black;
+            this.BackgroundImage = global::Enigma.Properties.Resources.ForBuild;
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
-            this.ClientSize = new System.Drawing.Size(589, 701);
+            this.ClientSize = new System.Drawing.Size(1126, 749);
             this.Controls.Add(this.checkBox1);
             this.Controls.Add(this.button34);
             this.Controls.Add(this.button33);
@@ -495,9 +513,14 @@
             this.Controls.Add(this.textBox3);
             this.Controls.Add(this.textBox2);
             this.Controls.Add(this.textBox1);
-            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedToolWindow;
+            this.Font = new System.Drawing.Font("Lucida Handwriting", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.ForeColor = System.Drawing.Color.Black;
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.MaximizeBox = false;
-            this.Name = "Form1";
+            this.Name = "Enigma";
+            this.Text = "Enigma";
+            this.TransparencyKey = System.Drawing.Color.Green;
             this.ResumeLayout(false);
             this.PerformLayout();
 

@@ -63,39 +63,9 @@ namespace Enigma.Properties {
         /// <summary>
         ///   Поиск локализованного ресурса типа System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap Background {
+        internal static System.Drawing.Bitmap ForBuild {
             get {
-                object obj = ResourceManager.GetObject("Background", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   Поиск локализованного ресурса типа System.Drawing.Bitmap.
-        /// </summary>
-        internal static System.Drawing.Bitmap Button_Delete {
-            get {
-                object obj = ResourceManager.GetObject("Button_Delete", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   Поиск локализованного ресурса типа System.Drawing.Bitmap.
-        /// </summary>
-        internal static System.Drawing.Bitmap Left {
-            get {
-                object obj = ResourceManager.GetObject("Left", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   Поиск локализованного ресурса типа System.Drawing.Bitmap.
-        /// </summary>
-        internal static System.Drawing.Bitmap Right {
-            get {
-                object obj = ResourceManager.GetObject("Right", resourceCulture);
+                object obj = ResourceManager.GetObject("ForBuild", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

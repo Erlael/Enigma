@@ -104,16 +104,7 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Background.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Left.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Right.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Button_Delete.png" />
+    <None Include="Pic\ForBuild.jpg" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
