@@ -39,6 +39,17 @@ namespace Enigma
             }
         }
 
+        public static int Roters3(int r3)
+        {
+            if (r3 == 9)
+            {
+                r3 = 0;
+            }
+            else r3 = r3 + 1;
+            return r3;
+
+        }
+
 
     }
 }
