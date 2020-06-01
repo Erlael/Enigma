@@ -50,6 +50,26 @@ namespace Enigma
 
         }
 
+        public static int Roters2(int r2, int r3)
+        {
+
+            if (r3 == 0)
+            {
+                if (r2 == 9)
+                {
+                    r2 = 0;
+                }
+                else
+                {
+                    r2 = r2 + 1;
+                }
+            }
+
+
+            return r2;
+
+        }
+
 
     }
 }
