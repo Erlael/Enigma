@@ -70,6 +70,24 @@ namespace Enigma
 
         }
 
+        public static int Roters1(int r1, int r2, int r3)
+        {
+            if ((r2 == 0) && (r3 == 0))
+            {
+                if (r1 == 9)
+                {
+                    r1 = 0;
+                }
+                else
+                {
+                    r1 = r1 + 1;
+                }
+            }
+
+            return r1;
+
+        }
+
 
     }
 }
