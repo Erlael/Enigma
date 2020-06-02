@@ -118,7 +118,112 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="Ф" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Pic\Ф.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="И" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Pic\И.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Д" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Pic\Д.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Ы" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Pic\Ы.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="ForBuild" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Pic\ForBuild.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="П" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Pic\П.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="А" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Pic\А.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Е" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Pic\Е.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Х" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Pic\Х.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Ч" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Pic\Ч.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="С" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Pic\С.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Очистить" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Pic\Очистить.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Г" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Pic\Г.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Ж" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Pic\Ж.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Р" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Pic\Р.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Б" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Pic\Б.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Ш" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Pic\Ш.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Т" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Pic\Т.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Й" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Pic\Й.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Л" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Pic\Л.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="К" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Pic\К.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="щ" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Pic\щ.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="В" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Pic\В.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Ъ" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Pic\Ъ.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="О" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Pic\О.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Э" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Pic\Э.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Ё" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Pic\Ё.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Ь" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Pic\Ь.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="З" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Pic\З.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Ц" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Pic\Ц.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Я" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Pic\Я.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Н" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Pic\Н.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="У" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Pic\У.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="М" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Pic\М.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Ю" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Pic\Ю.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Background" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Pic\Background.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
 </root>

@@ -106,5 +106,110 @@
   <ItemGroup>
     <None Include="Pic\ForBuild.jpg" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="Pic\Очистить.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Pic\Ё.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Pic\Ю.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Pic\Б.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Pic\Ь.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Pic\Т.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Pic\И.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Pic\М.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Pic\С.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Pic\Ч.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Pic\Я.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Pic\Э.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Pic\Ж.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Pic\Д.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Pic\Л.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Pic\О.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Pic\Р.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Pic\П.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Pic\А.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Pic\В.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Pic\Ы.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Pic\Ф.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Pic\Ъ.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Pic\Х.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Pic\З.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Pic\щ.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Pic\Ш.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Pic\Г.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Pic\Н.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Pic\Е.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Pic\К.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Pic\У.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Pic\Ц.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Pic\Й.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Pic\Background.jpg" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
