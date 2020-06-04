@@ -17,23 +17,23 @@ namespace Enigma
             InitializeComponent();
         }
 
-        private void Rot(string btnText, int b)
+        private void Rot(string btnText)
         {
-            int r1 = Convert.ToInt32(textBox1.Text);
-            int r2 = Convert.ToInt32(textBox2.Text);
-            int r3 = Convert.ToInt32(textBox3.Text);
+            int r1 = textBox1.Text != String.Empty ? Convert.ToInt32(textBox1.Text) : 0;
+            int r2 = textBox2.Text != String.Empty ? Convert.ToInt32(textBox2.Text) : 0;
+            int r3 = textBox3.Text != String.Empty ? Convert.ToInt32(textBox3.Text) : 0;
             int r11 = Program.GetRot(1, r1);
             int r22 = Program.GetRot(2, r2);
             int r33 = Program.GetRot(3, r3);
             int shift = r11 + r22 + r33;
             string Al;
-            if (b == 0)
+            if (!checkBox1.Checked)
             {
-                Al = Program.Coding(Array.IndexOf(Program.alphabet, btnText), shift, r1, r2, r3);
+                Al = Program.Coding(Array.IndexOf(Program.alphabet, btnText), shift);
             }
             else
             {
-                Al = Program.Decoding(Array.IndexOf(Program.alphabet, btnText), shift, r1, r2, r3);
+                Al = Program.Decoding(Array.IndexOf(Program.alphabet, btnText), shift);
             }
             textBox4.Text += Al + " ";
             r3 = Program.Roters3(r3);
@@ -46,365 +46,167 @@ namespace Enigma
 
         private void button1_Click(object sender, EventArgs e)
         {
-            int b = 0;
-
-            if (checkBox1.Checked)
-            {
-                b = 1;
-            }
-            Rot(button1.Text, b);
+            Rot(button1.Text);
         }
 
         private void button2_Click(object sender, EventArgs e)
         {
-            int b = 0;
-
-            if (checkBox1.Checked)
-            {
-                b = 1;
-            }
-            Rot(button2.Text, b);
+            Rot(button2.Text);
         }
 
         private void button3_Click(object sender, EventArgs e)
         {
-            int b = 0;
-
-            if (checkBox1.Checked)
-            {
-                b = 1;
-            }
-            Rot(button3.Text, b);
+            Rot(button3.Text);
         }
 
         private void button4_Click(object sender, EventArgs e)
         {
-            int b = 0;
-
-            if (checkBox1.Checked)
-            {
-                b = 1;
-            }
-            Rot(button4.Text, b);
+            Rot(button4.Text);
         }
 
         private void button5_Click(object sender, EventArgs e)
         {
-            int b = 0;
-
-            if (checkBox1.Checked)
-            {
-                b = 1;
-            }
-            Rot(button5.Text, b);
+            Rot(button5.Text);
         }
 
         private void button6_Click(object sender, EventArgs e)
         {
-            int b = 0;
-
-            if (checkBox1.Checked)
-            {
-                b = 1;
-            }
-            Rot(button6.Text, b);
+            Rot(button6.Text);
         }
 
         private void button7_Click(object sender, EventArgs e)
         {
-            int b = 0;
-
-            if (checkBox1.Checked)
-            {
-                b = 1;
-            }
-            Rot(button7.Text, b);
+            Rot(button7.Text);
         }
 
         private void button8_Click(object sender, EventArgs e)
         {
-            int b = 0;
-
-            if (checkBox1.Checked)
-            {
-                b = 1;
-            }
-            Rot(button8.Text, b);
+            Rot(button8.Text);
         }
 
         private void button9_Click(object sender, EventArgs e)
         {
-            int b = 0;
-
-            if (checkBox1.Checked)
-            {
-                b = 1;
-            }
-            Rot(button9.Text, b);
+            Rot(button9.Text);
         }
 
         private void button10_Click(object sender, EventArgs e)
         {
-            int b = 0;
-
-            if (checkBox1.Checked)
-            {
-                b = 1;
-            }
-            Rot(button10.Text, b);
+            Rot(button10.Text);
         }
 
         private void button11_Click(object sender, EventArgs e)
         {
-            int b = 0;
-
-            if (checkBox1.Checked)
-            {
-                b = 1;
-            }
-            Rot(button11.Text, b);
+            Rot(button11.Text);
         }
 
         private void button12_Click(object sender, EventArgs e)
         {
-            int b = 0;
-
-            if (checkBox1.Checked)
-            {
-                b = 1;
-            }
-            Rot(button12.Text, b);
+            Rot(button12.Text);
         }
 
         private void button13_Click(object sender, EventArgs e)
         {
-            int b = 0;
-
-            if (checkBox1.Checked)
-            {
-                b = 1;
-            }
-            Rot(button13.Text, b);
+            Rot(button13.Text);
         }
 
         private void button14_Click(object sender, EventArgs e)
         {
-            int b = 0;
-
-            if (checkBox1.Checked)
-            {
-                b = 1;
-            }
-            Rot(button14.Text, b);
+            Rot(button14.Text);
         }
 
         private void button15_Click(object sender, EventArgs e)
         {
-            int b = 0;
-
-            if (checkBox1.Checked)
-            {
-                b = 1;
-            }
-            Rot(button15.Text, b);
+            Rot(button15.Text);
         }
 
         private void button16_Click(object sender, EventArgs e)
         {
-            int b = 0;
-
-            if (checkBox1.Checked)
-            {
-                b = 1;
-            }
-            Rot(button16.Text, b);
+            Rot(button16.Text);
         }
 
         private void button17_Click(object sender, EventArgs e)
         {
-            int b = 0;
-
-            if (checkBox1.Checked)
-            {
-                b = 1;
-            }
-            Rot(button17.Text, b);
+            Rot(button17.Text);
         }
 
         private void button18_Click(object sender, EventArgs e)
         {
-            int b = 0;
-
-            if (checkBox1.Checked)
-            {
-                b = 1;
-            }
-            Rot(button18.Text, b);
+            Rot(button18.Text);
         }
 
         private void button19_Click(object sender, EventArgs e)
         {
-            int b = 0;
-
-            if (checkBox1.Checked)
-            {
-                b = 1;
-            }
-            Rot(button19.Text, b);
+            Rot(button19.Text);
         }
 
         private void button20_Click(object sender, EventArgs e)
         {
-            int b = 0;
-
-            if (checkBox1.Checked)
-            {
-                b = 1;
-            }
-            Rot(button20.Text, b);
+            Rot(button20.Text);
         }
 
         private void button21_Click(object sender, EventArgs e)
         {
-            int b = 0;
-
-            if (checkBox1.Checked)
-            {
-                b = 1;
-            }
-            Rot(button21.Text, b);
+            Rot(button21.Text);
         }
 
         private void button22_Click(object sender, EventArgs e)
         {
-            int b = 0;
-
-            if (checkBox1.Checked)
-            {
-                b = 1;
-            }
-            Rot(button22.Text, b);
+            Rot(button22.Text);
         }
 
         private void button23_Click(object sender, EventArgs e)
         {
-            int b = 0;
-
-            if (checkBox1.Checked)
-            {
-                b = 1;
-            }
-            Rot(button23.Text, b);
+            Rot(button23.Text);
         }
 
         private void button24_Click(object sender, EventArgs e)
         {
-            int b = 0;
-
-            if (checkBox1.Checked)
-            {
-                b = 1;
-            }
-            Rot(button24.Text, b);
+            Rot(button24.Text);
         }
 
         private void button25_Click(object sender, EventArgs e)
         {
-            int b = 0;
-
-            if (checkBox1.Checked)
-            {
-                b = 1;
-            }
-            Rot(button25.Text, b);
+            Rot(button25.Text);
         }
 
         private void button26_Click(object sender, EventArgs e)
         {
-            int b = 0;
-
-            if (checkBox1.Checked)
-            {
-                b = 1;
-            }
-            Rot(button26.Text, b);
+            Rot(button26.Text);
         }
 
         private void button27_Click(object sender, EventArgs e)
         {
-            int b = 0;
-
-            if (checkBox1.Checked)
-            {
-                b = 1;
-            }
-            Rot(button27.Text, b);
+            Rot(button27.Text);
         }
 
         private void button28_Click(object sender, EventArgs e)
         {
-            int b = 0;
-
-            if (checkBox1.Checked)
-            {
-                b = 1;
-            }
-            Rot(button28.Text, b);
+            Rot(button28.Text);
         }
 
         private void button29_Click(object sender, EventArgs e)
         {
-            int b = 0;
-
-            if (checkBox1.Checked)
-            {
-                b = 1;
-            }
-            Rot(button29.Text, b);
+            Rot(button29.Text);
         }
 
         private void button30_Click(object sender, EventArgs e)
         {
-            int b = 0;
-
-            if (checkBox1.Checked)
-            {
-                b = 1;
-            }
-            Rot(button30.Text, b);
+            Rot(button30.Text);
         }
 
         private void button31_Click(object sender, EventArgs e)
         {
-            int b = 0;
-
-            if (checkBox1.Checked)
-            {
-                b = 1;
-            }
-            Rot(button31.Text, b);
+            Rot(button31.Text);
         }
 
         private void button32_Click(object sender, EventArgs e)
         {
-            int b = 0;
-
-            if (checkBox1.Checked)
-            {
-                b = 1;
-            }
-            Rot(button32.Text, b);
+            Rot(button32.Text);
         }
 
         private void button33_Click(object sender, EventArgs e)
         {
-            int b = 0;
-
-            if (checkBox1.Checked)
-            {
-                b = 1;
-            }
-            Rot(button33.Text, b);
+            Rot(button33.Text);
         }
 
         private void button34_Click(object sender, EventArgs e)
@@ -420,7 +222,6 @@ namespace Enigma
             {
                 e.Handled = true;
             }
-
         }
 
         private void textBox2_KeyPress(object sender, KeyPressEventArgs e)
@@ -431,25 +232,16 @@ namespace Enigma
             {
                 e.Handled = true;
             }
-
         }
 
         private void textBox3_KeyPress(object sender, KeyPressEventArgs e)
         {
             char number = e.KeyChar;
 
-            if (!Char.IsDigit(number) && number != 8)
+            if (!Char.IsDigit(number) && number != 8 && number != 2)
             {
                 e.Handled = true;
             }
-
         }
-
-       
     }
-
-    
-
-
 }
-

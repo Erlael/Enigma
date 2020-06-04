@@ -22,9 +22,9 @@ namespace Enigma
 
         public static int GetRot(int r, int number)
         {
-            int[] rot1 = new int[10] { 8, 3, 2, 6, 9, 0, 1, 4, 5, 7 };
-            int[] rot2 = new int[10] { 4, 8, 1, 3, 9, 0, 2, 5, 6, 7 };
-            int[] rot3 = new int[10] { 14, 1, 6, 2, 8, 2, 4, 5, 2, 10 };
+            int[] rot1 = { 8, 3, 2, 6, 9, 0, 1, 4, 5, 7 };
+            int[] rot2 = { 4, 8, 1, 3, 9, 0, 2, 5, 6, 7 };
+            int[] rot3 = { 14, 1, 6, 2, 8, 2, 4, 5, 2, 10 };
 
             switch (r)
             {
@@ -87,9 +87,9 @@ namespace Enigma
             return r1;
 
         }
-        public static string[] alphabet = new string[33] { "А", "Б", "В", "Г", "Д", "Е", "Ё", "Ж", "З", "И", "Й", "К", "Л", "М", "Н", "О", "П", "Р", "С", "Т", "У", "Ф", "Х", "Ц", "Ч", "Ш", "Щ", "Ъ", "Ы", "Ь", "Э", "Ю", "Я" };
+        public static string[] alphabet = { "А", "Б", "В", "Г", "Д", "Е", "Ё", "Ж", "З", "И", "Й", "К", "Л", "М", "Н", "О", "П", "Р", "С", "Т", "У", "Ф", "Х", "Ц", "Ч", "Ш", "Щ", "Ъ", "Ы", "Ь", "Э", "Ю", "Я" };
 
-        public static string Coding(int a, int shift, int r1, int r2, int r3)
+        public static string Coding(int a, int shift)
         {
             a += shift;
             while (a > 32)
@@ -99,7 +99,8 @@ namespace Enigma
           
             return alphabet[a];
         }
-        public static string Decoding(int a, int shift, int r1, int r2, int r3)
+
+        public static string Decoding(int a, int shift)
         {
             a -= shift;
             while (a < 0)
@@ -109,7 +110,5 @@ namespace Enigma
 
             return alphabet[a];
         }
-
-
     }
 }
