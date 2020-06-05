@@ -1,0 +1,10 @@
+C:\Users\Mao Len\source\repos\Enigma\Enigma\bin\Debug\Enigma.exe.config
+C:\Users\Mao Len\source\repos\Enigma\Enigma\bin\Debug\Enigma.exe
+C:\Users\Mao Len\source\repos\Enigma\Enigma\bin\Debug\Enigma.pdb
+C:\Users\Mao Len\source\repos\Enigma\Enigma\obj\Debug\Enigma.csprojAssemblyReference.cache
+C:\Users\Mao Len\source\repos\Enigma\Enigma\obj\Debug\Enigma.Properties.Resources.resources
+C:\Users\Mao Len\source\repos\Enigma\Enigma\obj\Debug\Enigma.csproj.GenerateResource.cache
+C:\Users\Mao Len\source\repos\Enigma\Enigma\obj\Debug\Enigma.csproj.CoreCompileInputs.cache
+C:\Users\Mao Len\source\repos\Enigma\Enigma\obj\Debug\Enigma.exe
+C:\Users\Mao Len\source\repos\Enigma\Enigma\obj\Debug\Enigma.pdb
+C:\Users\Mao Len\source\repos\Enigma\Enigma\obj\Debug\Enigma.Enigma.resources
