@@ -82,7 +82,7 @@
             this.textBox1.Size = new System.Drawing.Size(16, 23);
             this.textBox1.TabIndex = 0;
             this.textBox1.Text = "0";
-            this.textBox1.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.textBox1_KeyPress);
+            this.textBox1.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.textBox_KeyCheck);
             // 
             // textBox2
             // 
@@ -96,7 +96,7 @@
             this.textBox2.Size = new System.Drawing.Size(14, 23);
             this.textBox2.TabIndex = 1;
             this.textBox2.Text = "0";
-            this.textBox2.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.textBox2_KeyPress);
+            this.textBox2.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.textBox_KeyCheck);
             // 
             // textBox3
             // 
@@ -110,7 +110,7 @@
             this.textBox3.Size = new System.Drawing.Size(14, 23);
             this.textBox3.TabIndex = 2;
             this.textBox3.Text = "0";
-            this.textBox3.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.textBox3_KeyPress);
+            this.textBox3.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.textBox_KeyCheck);
             // 
             // textBox4
             // 
@@ -148,7 +148,7 @@
             this.button1.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
             this.button1.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
             this.button1.UseVisualStyleBackColor = false;
-            this.button1.Click += new System.EventHandler(this.button1_Click);
+            this.button1.Click += new System.EventHandler(this.keyboard_button_Click);
             // 
             // button2
             // 
@@ -170,7 +170,7 @@
             this.button2.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
             this.button2.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
             this.button2.UseVisualStyleBackColor = false;
-            this.button2.Click += new System.EventHandler(this.button2_Click);
+            this.button2.Click += new System.EventHandler(this.keyboard_button_Click);
             // 
             // button3
             // 
@@ -192,7 +192,7 @@
             this.button3.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
             this.button3.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
             this.button3.UseVisualStyleBackColor = false;
-            this.button3.Click += new System.EventHandler(this.button3_Click);
+            this.button3.Click += new System.EventHandler(this.keyboard_button_Click);
             // 
             // button4
             // 
@@ -214,7 +214,7 @@
             this.button4.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
             this.button4.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
             this.button4.UseVisualStyleBackColor = false;
-            this.button4.Click += new System.EventHandler(this.button4_Click);
+            this.button4.Click += new System.EventHandler(this.keyboard_button_Click);
             // 
             // button5
             // 
@@ -236,7 +236,7 @@
             this.button5.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
             this.button5.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
             this.button5.UseVisualStyleBackColor = false;
-            this.button5.Click += new System.EventHandler(this.button5_Click);
+            this.button5.Click += new System.EventHandler(this.keyboard_button_Click);
             // 
             // button6
             // 
@@ -258,7 +258,7 @@
             this.button6.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
             this.button6.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
             this.button6.UseVisualStyleBackColor = false;
-            this.button6.Click += new System.EventHandler(this.button6_Click);
+            this.button6.Click += new System.EventHandler(this.keyboard_button_Click);
             // 
             // button7
             // 
@@ -280,7 +280,7 @@
             this.button7.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
             this.button7.TextImageRelation = System.Windows.Forms.TextImageRelation.TextAboveImage;
             this.button7.UseVisualStyleBackColor = false;
-            this.button7.Click += new System.EventHandler(this.button7_Click);
+            this.button7.Click += new System.EventHandler(this.keyboard_button_Click);
             // 
             // button8
             // 
@@ -302,7 +302,7 @@
             this.button8.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
             this.button8.TextImageRelation = System.Windows.Forms.TextImageRelation.TextAboveImage;
             this.button8.UseVisualStyleBackColor = false;
-            this.button8.Click += new System.EventHandler(this.button8_Click);
+            this.button8.Click += new System.EventHandler(this.keyboard_button_Click);
             // 
             // button9
             // 
@@ -324,7 +324,7 @@
             this.button9.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
             this.button9.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
             this.button9.UseVisualStyleBackColor = false;
-            this.button9.Click += new System.EventHandler(this.button9_Click);
+            this.button9.Click += new System.EventHandler(this.keyboard_button_Click);
             // 
             // button10
             // 
@@ -346,7 +346,7 @@
             this.button10.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
             this.button10.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
             this.button10.UseVisualStyleBackColor = false;
-            this.button10.Click += new System.EventHandler(this.button10_Click);
+            this.button10.Click += new System.EventHandler(this.keyboard_button_Click);
             // 
             // button11
             // 
@@ -368,7 +368,7 @@
             this.button11.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
             this.button11.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
             this.button11.UseVisualStyleBackColor = false;
-            this.button11.Click += new System.EventHandler(this.button11_Click);
+            this.button11.Click += new System.EventHandler(this.keyboard_button_Click);
             // 
             // button12
             // 
@@ -390,7 +390,7 @@
             this.button12.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
             this.button12.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
             this.button12.UseVisualStyleBackColor = false;
-            this.button12.Click += new System.EventHandler(this.button12_Click);
+            this.button12.Click += new System.EventHandler(this.keyboard_button_Click);
             // 
             // button13
             // 
@@ -410,7 +410,7 @@
             this.button13.TabIndex = 16;
             this.button13.Text = "Ф";
             this.button13.UseVisualStyleBackColor = false;
-            this.button13.Click += new System.EventHandler(this.button13_Click);
+            this.button13.Click += new System.EventHandler(this.keyboard_button_Click);
             // 
             // button14
             // 
@@ -432,7 +432,7 @@
             this.button14.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
             this.button14.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
             this.button14.UseVisualStyleBackColor = false;
-            this.button14.Click += new System.EventHandler(this.button14_Click);
+            this.button14.Click += new System.EventHandler(this.keyboard_button_Click);
             // 
             // button15
             // 
@@ -454,7 +454,7 @@
             this.button15.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
             this.button15.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
             this.button15.UseVisualStyleBackColor = false;
-            this.button15.Click += new System.EventHandler(this.button15_Click);
+            this.button15.Click += new System.EventHandler(this.keyboard_button_Click);
             // 
             // button16
             // 
@@ -476,7 +476,7 @@
             this.button16.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
             this.button16.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
             this.button16.UseVisualStyleBackColor = false;
-            this.button16.Click += new System.EventHandler(this.button16_Click);
+            this.button16.Click += new System.EventHandler(this.keyboard_button_Click);
             // 
             // button17
             // 
@@ -498,7 +498,7 @@
             this.button17.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
             this.button17.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
             this.button17.UseVisualStyleBackColor = false;
-            this.button17.Click += new System.EventHandler(this.button17_Click);
+            this.button17.Click += new System.EventHandler(this.keyboard_button_Click);
             // 
             // button18
             // 
@@ -520,7 +520,7 @@
             this.button18.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
             this.button18.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
             this.button18.UseVisualStyleBackColor = false;
-            this.button18.Click += new System.EventHandler(this.button18_Click);
+            this.button18.Click += new System.EventHandler(this.keyboard_button_Click);
             // 
             // button19
             // 
@@ -542,7 +542,7 @@
             this.button19.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
             this.button19.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
             this.button19.UseVisualStyleBackColor = false;
-            this.button19.Click += new System.EventHandler(this.button19_Click);
+            this.button19.Click += new System.EventHandler(this.keyboard_button_Click);
             // 
             // button20
             // 
@@ -564,7 +564,7 @@
             this.button20.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
             this.button20.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
             this.button20.UseVisualStyleBackColor = false;
-            this.button20.Click += new System.EventHandler(this.button20_Click);
+            this.button20.Click += new System.EventHandler(this.keyboard_button_Click);
             // 
             // button21
             // 
@@ -586,7 +586,7 @@
             this.button21.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
             this.button21.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
             this.button21.UseVisualStyleBackColor = false;
-            this.button21.Click += new System.EventHandler(this.button21_Click);
+            this.button21.Click += new System.EventHandler(this.keyboard_button_Click);
             // 
             // button22
             // 
@@ -608,7 +608,7 @@
             this.button22.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
             this.button22.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
             this.button22.UseVisualStyleBackColor = false;
-            this.button22.Click += new System.EventHandler(this.button22_Click);
+            this.button22.Click += new System.EventHandler(this.keyboard_button_Click);
             // 
             // button23
             // 
@@ -629,7 +629,7 @@
             this.button23.Text = "Э";
             this.button23.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
             this.button23.UseVisualStyleBackColor = false;
-            this.button23.Click += new System.EventHandler(this.button23_Click);
+            this.button23.Click += new System.EventHandler(this.keyboard_button_Click);
             // 
             // button24
             // 
@@ -651,7 +651,7 @@
             this.button24.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
             this.button24.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
             this.button24.UseVisualStyleBackColor = false;
-            this.button24.Click += new System.EventHandler(this.button24_Click);
+            this.button24.Click += new System.EventHandler(this.keyboard_button_Click);
             // 
             // button25
             // 
@@ -672,7 +672,7 @@
             this.button25.Text = "Ч";
             this.button25.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
             this.button25.UseVisualStyleBackColor = false;
-            this.button25.Click += new System.EventHandler(this.button25_Click);
+            this.button25.Click += new System.EventHandler(this.keyboard_button_Click);
             // 
             // button26
             // 
@@ -694,7 +694,7 @@
             this.button26.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
             this.button26.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
             this.button26.UseVisualStyleBackColor = false;
-            this.button26.Click += new System.EventHandler(this.button26_Click);
+            this.button26.Click += new System.EventHandler(this.keyboard_button_Click);
             // 
             // button27
             // 
@@ -716,7 +716,7 @@
             this.button27.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
             this.button27.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
             this.button27.UseVisualStyleBackColor = false;
-            this.button27.Click += new System.EventHandler(this.button27_Click);
+            this.button27.Click += new System.EventHandler(this.keyboard_button_Click);
             // 
             // button28
             // 
@@ -738,7 +738,7 @@
             this.button28.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
             this.button28.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
             this.button28.UseVisualStyleBackColor = false;
-            this.button28.Click += new System.EventHandler(this.button28_Click);
+            this.button28.Click += new System.EventHandler(this.keyboard_button_Click);
             // 
             // button29
             // 
@@ -759,7 +759,7 @@
             this.button29.Text = "Т";
             this.button29.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
             this.button29.UseVisualStyleBackColor = false;
-            this.button29.Click += new System.EventHandler(this.button29_Click);
+            this.button29.Click += new System.EventHandler(this.keyboard_button_Click);
             // 
             // button30
             // 
@@ -780,7 +780,7 @@
             this.button30.Text = "Ь";
             this.button30.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
             this.button30.UseVisualStyleBackColor = false;
-            this.button30.Click += new System.EventHandler(this.button30_Click);
+            this.button30.Click += new System.EventHandler(this.keyboard_button_Click);
             // 
             // button31
             // 
@@ -801,7 +801,7 @@
             this.button31.Text = "Б";
             this.button31.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
             this.button31.UseVisualStyleBackColor = false;
-            this.button31.Click += new System.EventHandler(this.button31_Click);
+            this.button31.Click += new System.EventHandler(this.keyboard_button_Click);
             // 
             // button32
             // 
@@ -822,7 +822,7 @@
             this.button32.Text = "Ю";
             this.button32.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
             this.button32.UseVisualStyleBackColor = false;
-            this.button32.Click += new System.EventHandler(this.button32_Click);
+            this.button32.Click += new System.EventHandler(this.keyboard_button_Click);
             // 
             // button33
             // 
@@ -843,7 +843,7 @@
             this.button33.Text = "Ё";
             this.button33.TextImageRelation = System.Windows.Forms.TextImageRelation.TextBeforeImage;
             this.button33.UseVisualStyleBackColor = false;
-            this.button33.Click += new System.EventHandler(this.button33_Click);
+            this.button33.Click += new System.EventHandler(this.keyboard_button_Click);
             // 
             // button34
             // 

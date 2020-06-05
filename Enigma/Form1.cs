@@ -44,169 +44,10 @@ namespace Enigma
             textBox3.Text = r3.ToString();
         }
 
-        private void button1_Click(object sender, EventArgs e)
+        private void keyboard_button_Click(object sender, EventArgs e)
         {
-            Rot(button1.Text);
-        }
-
-        private void button2_Click(object sender, EventArgs e)
-        {
-            Rot(button2.Text);
-        }
-
-        private void button3_Click(object sender, EventArgs e)
-        {
-            Rot(button3.Text);
-        }
-
-        private void button4_Click(object sender, EventArgs e)
-        {
-            Rot(button4.Text);
-        }
-
-        private void button5_Click(object sender, EventArgs e)
-        {
-            Rot(button5.Text);
-        }
-
-        private void button6_Click(object sender, EventArgs e)
-        {
-            Rot(button6.Text);
-        }
-
-        private void button7_Click(object sender, EventArgs e)
-        {
-            Rot(button7.Text);
-        }
-
-        private void button8_Click(object sender, EventArgs e)
-        {
-            Rot(button8.Text);
-        }
-
-        private void button9_Click(object sender, EventArgs e)
-        {
-            Rot(button9.Text);
-        }
-
-        private void button10_Click(object sender, EventArgs e)
-        {
-            Rot(button10.Text);
-        }
-
-        private void button11_Click(object sender, EventArgs e)
-        {
-            Rot(button11.Text);
-        }
-
-        private void button12_Click(object sender, EventArgs e)
-        {
-            Rot(button12.Text);
-        }
-
-        private void button13_Click(object sender, EventArgs e)
-        {
-            Rot(button13.Text);
-        }
-
-        private void button14_Click(object sender, EventArgs e)
-        {
-            Rot(button14.Text);
-        }
-
-        private void button15_Click(object sender, EventArgs e)
-        {
-            Rot(button15.Text);
-        }
-
-        private void button16_Click(object sender, EventArgs e)
-        {
-            Rot(button16.Text);
-        }
-
-        private void button17_Click(object sender, EventArgs e)
-        {
-            Rot(button17.Text);
-        }
-
-        private void button18_Click(object sender, EventArgs e)
-        {
-            Rot(button18.Text);
-        }
-
-        private void button19_Click(object sender, EventArgs e)
-        {
-            Rot(button19.Text);
-        }
-
-        private void button20_Click(object sender, EventArgs e)
-        {
-            Rot(button20.Text);
-        }
-
-        private void button21_Click(object sender, EventArgs e)
-        {
-            Rot(button21.Text);
-        }
-
-        private void button22_Click(object sender, EventArgs e)
-        {
-            Rot(button22.Text);
-        }
-
-        private void button23_Click(object sender, EventArgs e)
-        {
-            Rot(button23.Text);
-        }
-
-        private void button24_Click(object sender, EventArgs e)
-        {
-            Rot(button24.Text);
-        }
-
-        private void button25_Click(object sender, EventArgs e)
-        {
-            Rot(button25.Text);
-        }
-
-        private void button26_Click(object sender, EventArgs e)
-        {
-            Rot(button26.Text);
-        }
-
-        private void button27_Click(object sender, EventArgs e)
-        {
-            Rot(button27.Text);
-        }
-
-        private void button28_Click(object sender, EventArgs e)
-        {
-            Rot(button28.Text);
-        }
-
-        private void button29_Click(object sender, EventArgs e)
-        {
-            Rot(button29.Text);
-        }
-
-        private void button30_Click(object sender, EventArgs e)
-        {
-            Rot(button30.Text);
-        }
-
-        private void button31_Click(object sender, EventArgs e)
-        {
-            Rot(button31.Text);
-        }
-
-        private void button32_Click(object sender, EventArgs e)
-        {
-            Rot(button32.Text);
-        }
-
-        private void button33_Click(object sender, EventArgs e)
-        {
-            Rot(button33.Text);
+            Button clicked = (Button)sender;
+            Rot(clicked.Text);
         }
 
         private void button34_Click(object sender, EventArgs e)
@@ -214,7 +55,7 @@ namespace Enigma
             textBox4.Clear();
         }
 
-        private void textBox1_KeyPress(object sender, KeyPressEventArgs e)
+        private void textBox_KeyCheck(object sender, KeyPressEventArgs e)
         {
             char number = e.KeyChar;
 
@@ -224,24 +65,6 @@ namespace Enigma
             }
         }
 
-        private void textBox2_KeyPress(object sender, KeyPressEventArgs e)
-        {
-            char number = e.KeyChar;
 
-            if (!Char.IsDigit(number) && number != 8)
-            {
-                e.Handled = true;
-            }
-        }
-
-        private void textBox3_KeyPress(object sender, KeyPressEventArgs e)
-        {
-            char number = e.KeyChar;
-
-            if (!Char.IsDigit(number) && number != 8 && number != 2)
-            {
-                e.Handled = true;
-            }
-        }
     }
 }
