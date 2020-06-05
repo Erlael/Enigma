@@ -3,6 +3,6 @@ solution: Enigma.sln
 mono:
   - latest
 before_install:
-  - sudo apt-get install nunit-console
-before_script:
-  - nuget restore Enigma.sln
+  - sudo apt-get install libcanberra-gtk-module
+#before_script:
+#  - nuget restore Enigma.sln
