@@ -6,7 +6,7 @@ using System.Windows.Forms;
 
 namespace Enigma
 {
-    static class Program
+    public static class Program
     {
 
         /// <summary>
