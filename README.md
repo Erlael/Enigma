@@ -1,37 +1,47 @@
-## Welcome to GitHub Pages
+## Общие сведения
+Используемые сокращения и термины
 
-You can use the [editor on GitHub](https://github.com/Erlael/Enigma/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
+Enigma — немецкая шифровальная машина времен второй мировой войны
+Шифрование — обратимое преобразование информации в целях сокрытия от нежелательных лиц, с предоставлением, в это же время, иным лицам доступа к ней.
+Дешифрование — процесс, обратный шифрованию, т. е. преобразование шифрованного сообщения в исходное.
+CheckBox — элемент графического пользовательского интерфейса, позволяющий пользователю управлять параметром с двумя состояниями — ☑ включено и ☐ отключено.
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
 
-### Markdown
+## Базовая информация
+«Эни́гма» (от нем. Änigma — загадка) — переносная шифровальная машина, использовавшаяся для шифрования и дешифрования секретных сообщений. Более точно, «Энигма» — целое семейство электромеханических роторных машин, применявшихся с 20-х годов XX века.
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+<h1>QuizRunner</h1>
+<p><b>Статус проекта:</b></p>
+<p>05.05.2020 - Начало проекта</p>
+<p>05.06.2020 - Завершение</p>
+<a href="https://travis-ci.org/Erlael/Enigma">
+  <img src="https://travis-ci.org/Erlael/Enigma.svg?branch=master" alt="Build Status" />
+  
+## Формат входных данных:
+Ввод осуществляется по средством элементов, встроенных в приложение, также можно ввести положения ротеров (в формате целых чисел от 0 до 9)
 
-```markdown
-Syntax highlighted code block
+# **Назначение и цели создания**
 
-# Header 1
-## Header 2
-### Header 3
+Разобрать принцип работы шифровальной машинки Enigma и создать приложение, которое будет работать по аналогии с ней. 
 
-- Bulleted
-- List
+![](https://im0-tub-ru.yandex.net/i?id=9d4ec5a80b32782e725dacb86800d0da-l&n=13)
 
-1. Numbered
-2. List
+## **Функции**
 
-**Bold** and _Italic_ and `Code` text
+1. Шифрование и дешифрование введенного текста, по аналогии с шифровальной машинкой энигма
+2. Переход из положения шифрования в положение дешифрования, по средствам checkBox.
+3. Вывод текста на экран, для удобства использования
+4. Очистка поля с текстом, по необходимости
+5. Ввод нужного положения ротера, по желанию, либо шифрование из изначальной позиции.
 
-[Link](url) and ![Image](src)
-```
+## **Пользовательский интерфейс**
 
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
+Элементы интерфейса:
+   1. Кнопки
+   2. Окна ввода
+   3. Окно вывода
+   4. CheckBox
 
-### Jekyll Themes
+## **Макет**
 
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/Erlael/Enigma/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+![](https://cdn.discordapp.com/attachments/698107269904334938/698632717339852830/f66bbbc941d1779e.jpg)
